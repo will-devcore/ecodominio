@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "jest": "^30.0.3",
+    "prettier": "^3.6.2"
+  },
+  "name": "ecodominio",
+  "version": "1.0.0",
+  "description": "este é um projeto para cria um site, que tem o obijetivo de fornecer uma gama de informasões de variados nichos porem o mais ecologicamente  sustetáveis possíveis",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
